@@ -1,0 +1,10 @@
+#!/sbin/openrc-run
+
+command=/usr/bin/dalacin
+command_args="-D /var/lib/dalacin -c /etc/dalacin/config.json run"
+pidfile=/run/${RC_SVCNAME}.pid
+command_background=true
+
+depend() {
+        need net
+}
