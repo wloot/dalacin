@@ -73,7 +73,7 @@ install_dalacin() {
     mkdir -p /tmp/dalacin-installer/
     cd /tmp/dalacin-installer/
 
-    url="https://github.com/wloot/v2ray-dalacin/archive/master.tar.gz"
+    url="https://github.com/wloot/dalacin/archive/master.tar.gz"
     echo -e "开始安装 dalacin"
     curl -L -o ./dalacin.tar.gz ${url}
     if [[ $? -ne 0 ]]; then
