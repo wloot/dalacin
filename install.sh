@@ -82,7 +82,7 @@ install_dalacin() {
     fi
 
     tar -xzf dalacin.tar.gz
-    cd v2ray-dalacin-master
+    cd dalacin-master
 
     mkdir -p /usr/share/dalacin/
     rm -rf /usr/share/dalacin/*
